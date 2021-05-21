@@ -20,12 +20,10 @@ button{
 }
 /*header */
 header{
-    background-color:var(--white);
-    font-family: var(--main-font);
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
 }
 a{
     text-decoration: none; 
@@ -37,10 +35,8 @@ ul{
 .logo{
     color:var(--blue);
     font-family: var(--logo-font);
-    font-style: normal;
-    font-weight: bold;
     font-size: 26px;
-    line-height: 1,19;
+    line-height: 1.19;
 }
 .studio-black{
     color:var(--black);
@@ -61,72 +57,59 @@ ul{
 /* Hero section */
 .hero-section{
     background-color: var(--bluegray); 
+}
+.hero-section .hs-title{
     color: var(--white);
-    font-family: var(--main-font);
     font-weight: 900;
-    font-style: normal;
-    line-height: 1,36;
+    line-height: 1.36;
     font-size: 44px;
+    text-transform: uppercase;
 }    
-.hero-section button{
+.hero-section .hero-button{
     background-color: var(--blue);
     color: var(--white);
     font-family: var(--main-font);
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1,87;
+    line-height: 1.87;
     border-radius: 4px;
 }
 /* our features section */
-.our-features h3{
-    font-family: var(--main-font);
-    font-style: normal;
-    font-weight: bold;
+.our-features .features{ 
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
+    text-transform: uppercase;
 }
-.our-features p{
+.our-features .features-text{
     color: var(--gray);
-    font-family: var(--main-font);
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
 }
 /* what we do section */
-.what-we-do h2{
-    font-family:var(--main-font);
-    font-style: normal;
+.what-we-do .what-we-do-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,16;
+    line-height: 1.16;
 }
 /* our tem section */
 .our-team{
     background-color: var(--white-gray);    
 }
-.our-team h2{
-    font-family: var(--main-font);
-    font-style: normal;
+.our-team .our-team-title{
     font-weight: bold;
     font-size: 36px;
-    line-height: 1,16;
+    line-height: 1.16;
 }
-.our-team h3{
-    font-family: var(--main-font);
-    font-style: normal;
+.our-team .name{
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,18;
+    line-height: 1.18;
 }
-.our-team p{
+.our-team .job{
     color: var(--gray);
-    font-family: var(--main-font);
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
-    line-height: 1,18;
+    line-height: 1.18;
 }
 /* footer */
 .footer{
@@ -134,40 +117,31 @@ ul{
 }
 .address{
     color: var(--white);
-    font-family: var(--main-font);
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
 }
 /* Portfolio */
-.filters button{
+.filters .filter-button{
     font-family: var(--main-font);
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,62;
+    line-height: 1.62;
     background-color: #F5F4FA;
     border-radius: 4px;
 }
-.filters button:hover,
-.filters button:focus{
+.filters .filter-button:hover,
+.filters .filter-button:focus{
     background-color: var(--blue);
     color: var(--white);
 }
 /* projects section */
-.projects h3{
-    font-family: var(--main-font);
-    font-style: normal;
-    font-weight: bold;
+.projects .p-names{
     font-size: 18px;
     line-height: 2;
 }
-.projects p{
+.projects .p-description{
     color: var(--gray);
-    font-family: var(--main-font);
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 1,87;
+    line-height: 1.87;
 }
